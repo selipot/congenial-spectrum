@@ -1,13 +1,10 @@
-name: example-environment
+name: congenial-environment
 channels:
   - conda-forge
 dependencies:
   - numpy
-  - psutil
-  - toolz
   - matplotlib
-  - dill
+  - scipy
   - pandas
-  - partd
-  - bokeh
-  - dask
+  - xarray
+  - xrft
